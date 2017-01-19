@@ -13,6 +13,8 @@ The function `get_data`, called without arguments, downloads a zip file containi
  
 The function `analyze_data`, called without arguments, processes the downloaded study data into two R dataframes and outputs these as elements of a list of length 2. The dataframes are a data set and a summary table. See code book for details.
 
+**To run `analyze_data()`, you must have the directory "UCI HAR Dataset" in your working directory.** If you have run `get_data` first, this will be true automatically.
+
 Much of the work of `analyze_data` is done by helper functions. Some can be run from the command line, but most are internal to `analyze_data`. They are as follows:
 
 
